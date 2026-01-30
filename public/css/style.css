@@ -1,0 +1,7 @@
+/* Custom styles if needed overriding Tailwind or Prism */
+pre {
+    background-color: #2d2d2d !important;
+    border-radius: 0.375rem; /* rounded-md */
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
