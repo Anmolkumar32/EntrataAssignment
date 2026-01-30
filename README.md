@@ -1,5 +1,3 @@
-
- 
 # AI-Powered Code Explainer
 ![Working image of the GUI](./GUI.png)
 ## Objective
@@ -12,7 +10,7 @@ A web-based tool that takes a code snippet (Python or JavaScript) as input and o
     - **Reasoning**: Lightweight, no build step required (using CDNs), fast development for MVP.
 - **Backend**: PHP 8.x.
     - **Reasoning**: Chosen language for the assignment. Simple, widely supported, and easy to deploy.
-- **AI Integration**: OpenAI API (GPT-3.5-turbo).
+- **AI Integration**: OpenAI API (GPT-4o-mini).
     - **Reasoning**: Reliable, cost-effective, and provides high-quality code explanations.
 - **State Management**: PHP Sessions.
     - **Reasoning**: To store the history of queries without needing a database for this MVP.
@@ -24,7 +22,7 @@ A web-based tool that takes a code snippet (Python or JavaScript) as input and o
 - `Tailwind CSS`: For rapid UI development.
 
 ## AI Tool Selection
-I selected **OpenAI's GPT-3.5-turbo** for this project.
+I selected **OpenAI's GPT-4o-mini** for this project.
 - **Accuracy**: It excels at code understanding and natural language generation.
 - **Speed**: It offers a good balance between response time and quality for interactive web apps.
 - **Ease of Use**: The API is well-documented and easy to integrate with PHP.
